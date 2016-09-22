@@ -2,7 +2,7 @@
 
 The app has been developed by Piotr Berebecki as part of undertaking an excellent course: [Advanced React and Redux](https://www.udemy.com/react-redux-tutorial) by Stephen Grider.
 
-Development tools and techniques used include:
+Development tools and techniques include:
 
 * React
 * ES6
