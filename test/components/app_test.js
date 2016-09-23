@@ -10,7 +10,6 @@ describe('App', () => {
   });
   
   it('shows a commment box', () => {
-    const component = renderComponent(App);
     expect(component.find('.comment-box')).to.exist;
   });
 });

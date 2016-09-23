@@ -12,7 +12,9 @@ Development tools and techniques include:
 * Node
 * Test-driven development(TDD)
 * Mocha
-* Chai
+* Chai (make assertions with `expect`)
+* Chai-jquery (`find` elements, jQuery-specific assertions)
+* React Test Utilities (`renderIntoDocument`, `Simulate` events)
 * Git
 * GitHub
 
