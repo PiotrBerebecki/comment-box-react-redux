@@ -21,11 +21,11 @@ describe('CommentBox', () => {
   
   describe('textarea', () => {
     beforeEach(() => {
-      component.find('textarea').simulate('change', 'new comment');
+      component.find('textarea').simulate('change', 'some text');
     });
     
     it('shows entered text', () =>  {
-      expect(component.find('textarea')).to.have.value('new comment');
+      expect(component.find('textarea')).to.have.value('some text');
     });
     
     it('is cleared on button click', () =>  {
