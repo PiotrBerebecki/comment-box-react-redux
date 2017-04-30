@@ -14,8 +14,8 @@ const CommentList = props => {
   );
 };
 
-function mapStateToProps(state) {
-  return { comments: state.comments };
-}
+const mapStateToProps = state => ({
+  comments: state.comments,
+});
 
 export default connect(mapStateToProps)(CommentList);

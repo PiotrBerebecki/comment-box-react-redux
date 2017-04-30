@@ -11,10 +11,11 @@ Development tools and techniques include:
 * Webpack
 * Node
 * Test-driven development(TDD)
-* Mocha
+* Mocha (test runner)
 * Chai (make assertions with `expect`)
 * Chai-jquery (`find` elements, check whether a specific html tag exists or if an element has a particular css class)
-* React Test Utilities (`renderIntoDocument`, `Simulate` events)
+* React Test Utilities (render components during tests with `renderIntoDocument`, simulate dom events with `Simulate`)
+* JSDOM
 * Git
 * GitHub
 
