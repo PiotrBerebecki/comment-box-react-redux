@@ -1,11 +1,10 @@
 import React from 'react';
+import uuid from 'uuid/V4';
 import { connect } from 'react-redux';
 
-const CommentList = (props) => {
-  const list = props.comments.map((comment) => {
-    return (
-      <li key={comment}>{comment}</li>
-    );
+const CommentList = props => {
+  const list = props.comments.map(comment => {
+    return <li key={uuid()}>{comment}</li>;
   });
 
   return (
